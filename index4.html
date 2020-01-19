@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML page layout</title>
+    <link rel="icon" href="favicon.png">
+    
+    <style>
+        
+.article{
+    overflow: hidden;
+    }
+    .top_header{
+        overflow: hidden;
+    }
+.maincontent{
+    margin-top: 7px;
+
+}
+.header_logo{
+    background-color: rgb(4, 4, 121);
+    width: 30%;
+    height: 100px;
+    float: left;
+
+}
+.header_banner{
+    background-color: rgb(5, 56, 71);
+    width: 69.5%;
+    height: 100px;
+    float: right;
+
+}
+
+.bar{
+    background-color: brown;
+    height: 50px;
+    margin-top: 7px;
+}
+
+.left{
+    width: 20%;
+    height: 400px;
+    background-color: rgb(21, 74, 92);
+    float: left;
+
+}
+.middle{
+    width: 59%;
+    height: 400px;
+    background-color: darkgrey;
+    float: left;
+    margin-left: .5%;
+
+}
+.top{
+    height: 100px;
+    background-color: darkmagenta;
+
+}
+.center{
+    height: 200px;
+    background-color: blueviolet;
+
+    
+}
+.left_center{
+    width: 50%;
+    background-color: cyan;
+    height: 200px;
+    float: left;
+
+}
+.right_center{
+    width: 50%;
+    background-color: darkorange;
+    height: 200px;
+    float: right;
+   
+
+}
+.bottom{
+    height: 100px;
+    background-color: burlywood;
+
+}
+.right{
+
+    width: 20%;
+    height: 400px;
+    background-color: rgb(17, 76, 95);
+    float: right;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: rgb(15, 1, 1);
+   
+}
+footer{
+    background-color: rgb(28, 100, 28);
+    height: 90px;
+    margin-top: 10px;
+    
+
+}
+    </style>
+</head>
+<body>
+ <div class="article">   
+    <div class="top_header">
+        <div class="header_logo"><h1>Header logo</h1></div>
+        <div class="header_banner"><h1>Header_bannar</h1></div>
+    </div>
+
+    <div class="bar"><h1 class="header_bar">Header bar</h1></div>
+
+        <div class="maincontent">
+            <div class="left"><h1>Left block</h1></div>
+            <div class="middle">
+                <div class="top"><h1>Top content</h1></div>
+                <div class="center">
+                    <div class="left_center"><h1>Left center</h1></div>
+                    <div class="right_center"><h1>Right center</h1></div>
+                </div>
+                <div class="bottom"><h1>Bottom</h1></div>
+            </div>
+            <div class="right"><h1>Right block</h1></div>
+        </div>
+    </div>
+
+    <footer><h1>Footer</h1></footer>
+</body>
+</html>
